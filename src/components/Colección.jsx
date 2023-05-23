@@ -1,16 +1,14 @@
-const Filter = () => {
+const Colección = () => {
   return (
 <section>
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <header>
       <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-        Product Collection
+        Pide tu comida
       </h2>
 
       <p className="mt-4 max-w-md text-gray-500">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-        praesentium cumque iure dicta incidunt est ipsam, officia dolor fugit
-        natus?
+        Pide con anticipación y no pierdas tiempo esperando.
       </p>
     </header>
 
@@ -229,23 +227,40 @@ const Filter = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            src="https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/cfdtopiy/da3fee42-2e96-4d49-952d-18097a3ec44a.jpeg"
             alt=""
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
+
+
           <div className="relative bg-white pt-3">
             <h3
-              className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
             >
-              Basic Tee
+              Torta de carne asada
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> $55</span>
             </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
           </div>
         </a>
       </li>
@@ -253,23 +268,39 @@ const Filter = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            src="https://houseofyumm.com/wp-content/uploads/2021/06/Taco-Meat-8.jpg"
             alt=""
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div className="relative bg-white pt-3">
             <h3
-              className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
             >
-              Basic Tee
+              Órden de tacos
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> $40</span>
             </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+            
           </div>
         </a>
       </li>
@@ -277,23 +308,38 @@ const Filter = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            src="https://www.goodnes.com/sites/g/files/jgfbjl321/files/srh_recipes/755f697272cbcdc6e5df2adb44b1b705.jpg"
             alt=""
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div className="relative bg-white pt-3">
             <h3
-              className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
             >
-              Basic Tee
+              Ensalada César
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> $35</span>
             </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
           </div>
         </a>
       </li>
@@ -301,23 +347,352 @@ const Filter = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            src="https://therecipecritic.com/wp-content/uploads/2022/10/chili-750x1000-1.jpeg"
             alt=""
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div className="relative bg-white pt-3">
             <h3
-              className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
             >
-              Basic Tee
+              Chilaquiles
             </h3>
 
             <p className="mt-2">
               <span className="sr-only"> Regular Price </span>
 
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+              <span className="tracking-wider text-gray-900"> $30  </span>
             </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://www.goodnes.com/sites/g/files/jgfbjl321/files/srh_recipes/b77383acd0bfd906b71a14a7abbe480e.jpg"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Burrito
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $25</span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://cdn7.kiwilimon.com/recetaimagen/30158/640x640/32804.jpg.webp"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Ensalada rusa
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $25 </span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+            
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://therecipecritic.com/wp-content/uploads/2020/04/easy-empanada.jpg"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Empanada
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $15 </span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://hispanickitchen.com/wp-content/uploads/2017/07/Torta-de-Salchichas_3-2.jpg"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Torta de salchicha
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $50 </span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://grupolaflorida.com/wp-content/uploads/2021/10/receta-pastes-dulces.jpg"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+      <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Pastes dulces
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $20</span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://juliemarieeats.com/wp-content/uploads/2023/01/Chocolate-and-Vanilla-Cupcakes-11-scaled.jpg"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Cupcakes de chocolate
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $20 </span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+            
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://www.cardamomo.news/__export/1619896247521/sites/debate/img/2021/05/01/6b829973-fd32-4087-a3db-54c4c542ad5a_crop1619895872793.jpg_423682103.jpg"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Manzanas con chamoy
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $10 </span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" className="group block overflow-hidden">
+          <img
+            src="https://www.vvsupremo.com/wp-content/uploads/2017/11/Lime-Tart-Recipe-2.png"
+            alt=""
+            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div className="relative bg-white pt-3">
+            <h3
+              className="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              Pay de limón
+            </h3>
+
+            <p className="mt-2">
+              <span className="sr-only"> Regular Price </span>
+
+              <span className="tracking-wider text-gray-900"> $20 </span>
+            </p>
+            <a
+  className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"
+  href="/download"
+>
+  <span
+    className="absolute inset-x-0 bottom-0 h-[2px] bg-indigo-600 transition-all group-hover:h-full group-active:bg-indigo-500"
+  ></span>
+
+  <span
+    className="relative text-sm font-medium text-indigo-600 transition-colors group-hover:text-white"
+  >
+    Añadir
+  </span>
+</a>
+
           </div>
         </a>
       </li>
@@ -327,4 +702,4 @@ const Filter = () => {
   )
 }
 
-export default Filter
+export default Colección
