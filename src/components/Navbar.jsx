@@ -35,33 +35,6 @@ const Navbar = () => {
         aria-label="Site Nav"
         className="hidden lg:flex lg:gap-4 lg:text-xs lg:font-bold lg:uppercase lg:tracking-wide lg:text-gray-500"
       >
-        <a
-          href="/about"
-          className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-        >
-          About
-        </a>
-
-        <a
-          href="/news"
-          className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-        >
-          News
-        </a>
-
-        <a
-          href="/products"
-          className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-        >
-          Products
-        </a>
-
-        <a
-          href="/contact"
-          className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-        >
-          Contact
-        </a>
       </nav>
 
       <div className="flex items-center">

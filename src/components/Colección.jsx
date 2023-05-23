@@ -4,11 +4,12 @@ const Colección = () => {
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <header>
       <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-        Pide tu comida
+        
+¡Ordena tu comida con anticipación y ahorra tiempo esperando!
       </h2>
 
       <p className="mt-4 max-w-md text-gray-500">
-        Pide con anticipación y no pierdas tiempo esperando.
+      ¡No pierdas tiempo en la fila! Anticipa tu pedido de comida y evita largas esperas. Pensado especialmente para estudiantes como tú, te ofrecemos la oportunidad de solicitar tus comidas con anticipación, asegurando así que estén listas y esperándote cuando llegues.
       </p>
     </header>
 
@@ -42,7 +43,7 @@ const Colección = () => {
             <summary
               className="flex cursor-pointer items-center gap-2 border-b border-gray-400 pb-1 text-gray-900 transition hover:border-gray-600"
             >
-              <span className="text-sm font-medium"> Availability </span>
+              <span className="text-sm font-medium"> Disponibilidad </span>
 
               <span className="transition group-open:-rotate-180">
                 <svg
@@ -67,13 +68,13 @@ const Colección = () => {
             >
               <div className="w-96 rounded border border-gray-200 bg-white">
                 <header className="flex items-center justify-between p-4">
-                  <span className="text-sm text-gray-700"> 0 Selected </span>
+                  <span className="text-sm text-gray-700"> 0 Seleccionados </span>
 
                   <button
                     type="button"
                     className="text-sm text-gray-900 underline underline-offset-4"
                   >
-                    Reset
+                    Resetear
                   </button>
                 </header>
 
@@ -90,7 +91,7 @@ const Colección = () => {
                       />
 
                       <span className="text-sm font-medium text-gray-700">
-                        In Stock (5+)
+                        Listo para comer
                       </span>
                     </label>
                   </li>
@@ -107,7 +108,7 @@ const Colección = () => {
                       />
 
                       <span className="text-sm font-medium text-gray-700">
-                        Pre Order (3+)
+                        Para preparar
                       </span>
                     </label>
                   </li>
@@ -124,7 +125,7 @@ const Colección = () => {
                       />
 
                       <span className="text-sm font-medium text-gray-700">
-                        Out of Stock (10+)
+                        No disponible
                       </span>
                     </label>
                   </li>
@@ -139,7 +140,7 @@ const Colección = () => {
             <summary
               className="flex cursor-pointer items-center gap-2 border-b border-gray-400 pb-1 text-gray-900 transition hover:border-gray-600"
             >
-              <span className="text-sm font-medium"> Price </span>
+              <span className="text-sm font-medium"> Precio </span>
 
               <span className="transition group-open:-rotate-180">
                 <svg
@@ -165,14 +166,14 @@ const Colección = () => {
               <div className="w-96 rounded border border-gray-200 bg-white">
                 <header className="flex items-center justify-between p-4">
                   <span className="text-sm text-gray-700">
-                    The highest price is $600
+                    El precio más alto es $55
                   </span>
 
                   <button
                     type="button"
                     className="text-sm text-gray-900 underline underline-offset-4"
                   >
-                    Reset
+                    Resetear
                   </button>
                 </header>
 
@@ -187,7 +188,7 @@ const Colección = () => {
                       <input
                         type="number"
                         id="FilterPriceFrom"
-                        placeholder="From"
+                        placeholder="De"
                         className="w-full rounded-md border-gray-200 shadow-sm sm:text-sm"
                       />
                     </label>
@@ -198,7 +199,7 @@ const Colección = () => {
                       <input
                         type="number"
                         id="FilterPriceTo"
-                        placeholder="To"
+                        placeholder="A"
                         className="w-full rounded-md border-gray-200 shadow-sm sm:text-sm"
                       />
                     </label>
@@ -214,11 +215,11 @@ const Colección = () => {
         <label htmlFor="SortBy" className="sr-only">SortBy</label>
 
         <select id="SortBy" className="h-10 rounded border-gray-300 text-sm">
-          <option>Sort By</option>
-          <option value="Title, DESC">Title, DESC</option>
-          <option value="Title, ASC">Title, ASC</option>
-          <option value="Price, DESC">Price, DESC</option>
-          <option value="Price, ASC">Price, ASC</option>
+          <option>Ordenar por</option>
+          <option value="Nombre, DESC">Nombre, DESC</option>
+          <option value="Nombre, ASC">Nombre, ASC</option>
+          <option value="Precio, DESC">Precio, DESC</option>
+          <option value="Precio, ASC">Precio, ASC</option>
         </select>
       </div>
     </div>

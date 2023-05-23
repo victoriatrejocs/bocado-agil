@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <p className="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
-        Copyright &copy; 2022. All rights reserved.
+        Copyright &copy; Bocado Ágil. 2023. Todos los derechos reservados.
       </p>
     </div>
   </div>
